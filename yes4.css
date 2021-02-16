@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family:sans-serif;
+   
+}
+#navbar-nav{
+    position:sticky;
+    top:0;
+    z-index: 10;
+    
+}
+.navbar{
+    
+    background-image:linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+    padding: 0; 
+}
+.navbar-brand img{
+    height:60px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding:0 10px;
+}
+
+a:link{
+    color:#fff;
+    font-size: 20px;
+    font-weight:700;
+}
