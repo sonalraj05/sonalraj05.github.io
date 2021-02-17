@@ -25,8 +25,7 @@ body{
     padding:0 10px;
 }
 
-a {
-    color: white;
-    font-size: 20px;
-    font-weight:700;
+ul.nav li a, ul.nav li a:visited {
+    color: #fff; !important;
 }
+
