@@ -5,6 +5,7 @@
 body{
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
+
    
 }
 #navbar-nav{
@@ -57,7 +58,11 @@ body{
   background-image:linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);  
     color: #fff;
     padding-top: 5%;
-    font-family: "Lora";
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
     
+}
+.paragraph{
+    font-size: 20px;
 }
