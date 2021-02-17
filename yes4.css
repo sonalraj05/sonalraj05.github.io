@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    font-family:sans-serif;
+    font-weight: 300;
+    font-family: 'Lora', serif;
    
 }
 #navbar-nav{
@@ -25,7 +26,38 @@ body{
     padding:0 10px;
 }
 
-ul.nav li a, ul.nav li a:visited {
+.navbar-nav li a {
+    
+    opacity: 1;
+    font-weight: 600;
+    font-size: 20px;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    font-size: 330px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.nav.navbar-nav.navbar-right li a {
     color: #fff;
 }
 
+
+
+
+
+
+#fronthome{
+  background-image:linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);  
+    color: #fff;
+    padding-top: 5%;
+    font-family: "Lora";
+    font-size: 30px;
+    
+}
