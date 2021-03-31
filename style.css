@@ -1,1 +1,15 @@
-
+img{
+    width:25%;
+    height: auto;
+}
+nav{
+    font-size: 30px;
+    margin:10px;
+    font-family: 'Jura', sans-serif;
+}
+.nav-link{
+    color:#8D99AE;
+}
+.nav-link:hover{
+    color:#2B2D42;
+}
