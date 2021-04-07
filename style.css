@@ -1,3 +1,7 @@
+
+*{
+    background-color: #EDF2F4 !important;
+}
 img{
     width:25%;
     height: auto;
@@ -6,6 +10,7 @@ nav{
     font-size: 30px;
     margin:10px;
     font-family: 'Jura', sans-serif;
+    color: #EDF2F4;
 }
 .nav-link{
     color:#8D99AE;
