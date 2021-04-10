@@ -1,24 +1,44 @@
 *{
-    margin: 0;
-    padding: 0;
-}
-body{
+margin: 0;
+padding:0;
     
 }
-.navbar{
+body{
     font-family: 'Jura', sans-serif;
-    font-size: 30px;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-color: #EDF2F4;
-padding: 0 !important;
 }
-.navbar-brand img{
-    width:20%;
-    height: auto;
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index: 10;
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;
+}
+.navbar{
+    background-color: #EDF2F4;
+    padding: 10px !important;
+}
+.navbar-brand img
+{
+    width:auto;
+    height:90px;
     padding-left: 20px;
 }
 .navbar-nav li{
     padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #8D99AE;
+    font-weight: 600;
+    float:right;
+    text-align: left;
+}
+.navbar-nav li a:hover{
+    color: #2B2D42;
+}
+fa-bars{
+    color: #8D99AE;
+   
+}
+.navbar-toggler{
+    outline: none !important;
 }
