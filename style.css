@@ -42,3 +42,8 @@ fa-bars{
 .navbar-toggler{
     outline: none !important;
 }
+.photo{
+    width:34%;
+    margin:8.5%;
+    height:auto;
+}
