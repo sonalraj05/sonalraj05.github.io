@@ -1,15 +1,14 @@
 <html>
 <head>
     <title>sonals website</title>
-    <link rel=stylesheet href="style.css">
+    <link rel=stylesheet href="gallery.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+     <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
     
 </head>
     <body>
@@ -35,18 +34,15 @@
   </div>
 </nav>
     </section>
-        
-        <section id="carousel">
-        
-            
-        <div class="main-carousel">
-  <div class="carousel-cell"></div>
-  <div class="carousel-cell">...</div>
-  <div class="carousel-cell">...</div>
-  ...
-</div>
+    
+  <div class="gallery js-flickity">
+    <div class="gallery-cell"><img src="blue.jpg"></div>
+  <div class="gallery-cell"><img src="blue.jpg"></div>
+  <div class="gallery-cell"><img src="blue.jpg"></div>
+  
+        </div>
         
         
-        </section>
+       <script src="/path/to/flickity.pkgd.min.js"></script> 
     </body>
 </html>

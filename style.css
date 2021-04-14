@@ -42,8 +42,13 @@ fa-bars{
 .navbar-toggler{
     outline: none !important;
 }
-.photo{
-    width:34%;
-    margin:8.5%;
-    height:auto;
+
+.main-text{
+    font-family: 'Cormorant Garamond', serif;
+    Color:#2B2D42;
+    font-size: 16pt;
 }
+
+
+
+
