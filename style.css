@@ -2,10 +2,14 @@
 margin: 0;
 padding:0;
     
+    
 }
 body{
     font-family: 'Jura', sans-serif;
+   
 }
+/*nav css*/
+
 #nav-bar{
     position:sticky;
     top:0;
@@ -42,3 +46,21 @@ fa-bars{
 .navbar-toggler{
     outline: none !important;
 }
+
+
+/*content css*/
+
+#content{
+     background-color: #EDF2F4;
+     color: #2B2D42;
+    padding-top; 5%;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: left;
+    font-size:20px;
+}
+.title{
+    font-size:40px;
+    font-weight:600;
+    margin-top:100px;
+}
+
