@@ -2,6 +2,7 @@
 <head>
     <title>sonals website</title>
     <link rel=stylesheet href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -10,29 +11,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Jura&display=swap" rel="stylesheet">
     
 </head>
-    <body>
-    <section id="nav-bar">
-        <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="index.html"><img src="vexlogo.png"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fa fa-bars fa-2x"></i>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="gallery.html">Gallery</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="tips.html">Tips</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="part.html">Parts</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<body>
         
-    </section>
-        
+<section id="nav-bar">
+<nav class="navbar navbar-expand-lg navbar-light">
+<a class="navbar-brand" href="index.html"><img src="vexlogo.png"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<i class="fa fa-bars fa-2x"></i>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="gallery.html">Gallery</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="tips.html">Tips</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="part.html">Parts</a>
+</li>
+</ul>
+</div>
+</nav>   
+</section>
+
+<section id="carousel">
+    <div class="main-carousel">
+  <div class="cell"><img src="carousel1.png"></div>
+  <div class="cell"><img src="carousel2.png"></div>
+  <div class="cell"><img src="carousel3.png"></div>
+  
+</div>
+</section>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script type="text/javascript">
+$('.main-carousel').flickity({
+  // options
+  cellAlign: 'center',
+  wrapAround: true,
+  freeScroll: true,
+  autoPlay: 1500, 
+});    
+</script>
 </body>
 </html>
