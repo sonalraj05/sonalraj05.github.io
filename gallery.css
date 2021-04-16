@@ -15,6 +15,7 @@ body{
     top:0;
     z-index: 10;
     font-family: 'Jura', sans-serif;
+ 
     
 }
 .navbar{
@@ -63,7 +64,12 @@ fa-bars{
     width: 100%;
     height: 350px;
     object-fit: cover;
+    margin-top: 200px;
 }
+#format{
+   padding-bottom: 30px;
+}
+
 
 
 
