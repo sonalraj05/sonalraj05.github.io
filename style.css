@@ -63,12 +63,12 @@ fa-bars{
 .title1{
     font-size: 40px;
     font-weight: 600;
-    margin-top: 100px;
-    
+    margin-top: 100px;  
 }
 .img-fluid{
-    width: 150%;
-}              
-            
+    max-height: 150%;
+    
+}
+  
 
 
