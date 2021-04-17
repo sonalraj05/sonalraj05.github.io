@@ -1,0 +1,71 @@
+*{
+margin: 0;
+padding:0;
+    
+    
+}
+body{
+    font-family: 'Jura', sans-serif;
+    background-color: #EDF2F4 !important;
+    
+   
+}
+/*nav css*/
+
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index: 10;
+    font-family: 'Jura', sans-serif;
+    
+}
+.navbar{
+    background-color: #EDF2F4;
+    padding: 10px !important;
+    font-size: 30px;
+}
+.navbar-brand img
+{
+    width:auto;
+    height:90px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #8D99AE;
+    font-weight: 600;
+    float:right;
+    text-align: left;
+}
+.navbar-nav li a:hover{
+    color: #2B2D42;
+}
+fa-bars{
+    color: #8D99AE;
+   
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+
+/*content css*/
+
+#content{   
+    background-color: #EDF2F4;
+    color: #2B2D42;
+    padding-top:5%; 
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+.title1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;  
+}
+
+  
+
+
