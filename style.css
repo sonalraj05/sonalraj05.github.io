@@ -59,11 +59,17 @@ fa-bars{
     padding-top:5%; 
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
+    text-align: center;
 }
 .title1{
     font-size: 40px;
     font-weight: 600;
     margin-top: 100px;  
+}
+
+#bearingblock{
+    width:200px;
+    height:auto;
 }
 
   
