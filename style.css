@@ -72,15 +72,35 @@ fa-bars{
 }
 
 #bearingblock{
-    width:200px;
     height:auto;
     text-align: center;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 #wheel{
      width:400px;
     height:auto;
     text-align: center;
-    }
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+ 
+#channel{
+     width:400px;
+    height:auto;
+    text-align: center;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+ 
+
+
 
   
 
