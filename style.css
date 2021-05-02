@@ -63,7 +63,7 @@ fa-bars{
     
 }
 
-
+/*tips*/
 .title1{
     font-size: 40px;
     font-weight: 600;
@@ -97,7 +97,9 @@ fa-bars{
   margin-left: auto;
   margin-right: auto;
   width: 65%;
+    
 }
+/*drive*/
 #scrubimg{
     width: 800px;
 }
