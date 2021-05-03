@@ -77,7 +77,8 @@ fa-bars{
       display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 25%;
+    
 }
 #wheel{
      width:400px;
@@ -86,7 +87,7 @@ fa-bars{
       display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
+  width: 25%;
 }
  
 #channel{
@@ -96,12 +97,12 @@ fa-bars{
       display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
+  width: 30%;
     
 }
 /*drive*/
 #scrubimg{
-    width: 800px;
+    width: 110%;
 }
 #tankimg{
     width: 500px;
