@@ -113,13 +113,16 @@ fa-bars{
 /*carousel*/
 
 #carousel{
-    width:1000px;
+    width:100%;
     height:auto;
     
 }
 #carousel img{
     display: block;
     height:450px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left:10px;
 }
 
 
