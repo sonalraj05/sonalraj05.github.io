@@ -110,6 +110,17 @@ fa-bars{
  #holoimg{
     width: 600px;
 }
+/*carousel*/
+
+#carousel{
+    width:1000px;
+    height:auto;
+    
+}
+#carousel img{
+    display: block;
+    height:450px;
+}
 
 
 
